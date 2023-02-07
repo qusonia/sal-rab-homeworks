@@ -5,6 +5,7 @@ function addInCartMessage(title, price) {
      message = productName;
      message += ' ';
      message += 'за';
+     message += ' ';
      message += productPrice;
      message += ' ';
      message += 'теперь в корзине!';

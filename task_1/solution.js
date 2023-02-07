@@ -21,7 +21,7 @@ function addInCartCountChange(value) {
 
      let oldValue = value;
      let newValue;
-     newValue = oldValue + 1;
+     newValue = oldValue;
      newValue += 1;
 
     
@@ -33,7 +33,6 @@ function addInCartSumChange(sum, delta) {
      let oldSum = sum;
      let difference = delta;
      let newSum = oldSum + difference;
-     newSum += '₽';
      newSumText = `${newSum} ₽`;
 
     
